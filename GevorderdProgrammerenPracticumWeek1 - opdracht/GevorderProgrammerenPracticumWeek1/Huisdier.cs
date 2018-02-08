@@ -8,28 +8,34 @@ namespace GevorderProgrammerenPracticumWeek1
 {
     class Huisdier
     {
-        private string naam;
-        private string soort;
+        private string Naam;
+        private string Soort;
+       
 
-        public Huisdier(string naam, string soort)
+        public Huisdier(string n, string s)
         {
-            this.naam = naam;
-            this.soort = soort;
+            this.Naam = n;
+            this.Soort = s;
         }
 
         public string getNaam()
         {
-            return this.naam;
+            return Naam;
         }
 
         public string getSoort()
         {
-            return this.soort;
+            return Soort;
         }
 
-        public string getBeschrijving()
+        public string getBeschrijving() 
         {
-            return this.naam + this.soort;  
+            return Naam + Soort; 
         }
+
+     
+     
+
+
     }
 }

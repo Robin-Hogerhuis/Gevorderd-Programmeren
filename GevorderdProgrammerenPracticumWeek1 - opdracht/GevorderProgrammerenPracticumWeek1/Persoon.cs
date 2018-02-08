@@ -23,7 +23,12 @@ namespace GevorderProgrammerenPracticumWeek1
 
         public string getNaam()
         {
-            return this.voornaam; 
+            return voornaam; 
+        }
+
+        public string getAchternaam()
+        {
+            return achternaam; 
         }
 
         public List<Huisdier> getHuisdieren()
@@ -33,12 +38,12 @@ namespace GevorderProgrammerenPracticumWeek1
 
         public void addHuisdier(Huisdier huisdier)
         {
-
+          
         }
 
         public int getLeeftijd()
         {
-            return this.leeftijd;
+            return leeftijd;
         }
     }
 }

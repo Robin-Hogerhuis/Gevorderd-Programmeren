@@ -48,7 +48,7 @@ namespace GevorderProgrammerenPracticumWeek1
             listBoxPersonen.Items.Clear();
             foreach (Persoon p in personen)
             {
-                listBoxPersonen.Items.Add(p.getNaam());
+                listBoxPersonen.Items.Add(p.getNaam() + " " + p.getAchternaam());
             }
         }
 
